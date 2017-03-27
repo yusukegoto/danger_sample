@@ -6,5 +6,6 @@ Danger Sample
 # Danger
 
 ```
+$ bundle install --path=vendor/bundle --binstubs
 $ bundle exec danger local  # run localy
 ```
