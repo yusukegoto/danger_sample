@@ -6,6 +6,8 @@ Danger Sample
 # Danger
 
 ```
+$ rbenv install
+$ gem install bundler --no-ri --no-rdoc
 $ bundle install --path=vendor/bundle --binstubs
 $ bundle exec danger local  # run localy
 ```
