@@ -1,4 +1,4 @@
 test:
   override:
-    - ./manage.py test
     - bundle exec danger
+    - ./manage.py test
