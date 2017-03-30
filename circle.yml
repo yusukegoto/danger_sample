@@ -1,4 +1,4 @@
 test:
   override:
-    - bundle exec danger
+    - bundle exec danger --fail-on-errors=true
     - ./manage.py test
